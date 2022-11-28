@@ -1,0 +1,125 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: century-gothic, sans-serif;
+    background: linear-gradient(180deg,#000, blue, #0042ff, blue, #000);
+}
+header {
+    box-sizing: border-box;
+    box-shadow: 0 0 25px #00ffea;
+    height: 115px;
+    background-color: rgba(0, 0, 0, .7);
+}
+img {
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    transition: .5S;
+    padding: 5px;
+}
+img:hover{
+    background-color: #00ffea;
+    box-shadow: 0 0 5px #00ffea,
+                0 0 25px #00ffea,
+                0 0 50px #00ffea,
+                0 0 100px #00ffea;
+}
+#btns {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#btns button {
+    margin-right: 10px;
+}
+#menu button {
+    border-radius: 10px;
+    position: relative;
+    color: #00ffea;
+    background-color: rgba(0, 0, 0, .9);
+    font-weight: bold;
+    outline: none;
+    width: 150px;
+    height: 70px;
+    letter-spacing: 2px;
+    border-color: transparent;
+    box-sizing: border-box;
+    box-shadow: 0 5px 25px #000;
+    transition: .5s;
+}
+#menu button:hover {
+    background-color: #00ffea;
+    color: #fff;
+    box-shadow: 0 0 5px #00ffea,
+                0 0 15px #00ffea,
+                0 0 50px #00ffea;
+}
+#calculadora{
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px;
+    height: 300px;
+    width: 235px;
+    box-shadow: 0 0 25px #00ffea;
+}
+#calcDisplay{
+    height: 50px;
+    font-size: 22pt;
+    color: #fff;
+    padding: 5px;
+    overflow: hidden;
+}
+.calcBtns{
+    outline: none;
+    font-size: 20pt;
+    background-color: rgb(30, 30, 30);
+    color: #00ffea;
+    width: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-style: solid;
+    margin: 2px;
+}
+.calcBtns:hover{
+    background-color: rgb(10, 10, 10);
+    color: #fff;
+}
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 10px;
+}
+.btn {
+    color: #aaa;
+    letter-spacing: 10px;
+}
+.btn:hover{
+    color: #00ffea;
+    transition: .5s;
+}
+#profile, p{
+    color: #aaa;
+    text-decoration: none;
+    font-size: 12pt;
+    transition: .5s;
+}
+#profile:hover {
+    color: #00ffea;
+}
+button i{
+    margin: 5px;
+}

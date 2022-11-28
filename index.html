@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/5fe1b6438c.js" crossorigin="anonymous"></script>
+        <link href="style.css" rel="stylesheet">
+        <link href="html5.svg" rel="icon">
+        <title>HOME</title>
+    </head>
+    <header>
+        <div id="menu">
+            <div id="btns">
+                <img src="icon.png" height="100" width="100">
+            </div>
+        </div>
+    </header>
+    <body>
+        <div id="main1">
+            <div id="calculadora">
+                <div id="calcDisplay">0</div>
+                <table id="calcKeys">
+                    <tr>
+                        <td><button class="calcBtns" onclick="clean()">C</button></td>
+                        <td><button class="calcBtns" onclick="back()">⇐</button></td>
+                        <td><button class="calcBtns" onclick="insert('/')">÷</button></td>
+                        <td><button class="calcBtns" onclick="insert('*')">x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="calcBtns" onclick="insert('7')">7</button></td>
+                        <td><button class="calcBtns" onclick="insert('8')">8</button></td>
+                        <td><button class="calcBtns" onclick="insert('9')">9</button></td>
+                        <td><button class="calcBtns" onclick="insert('-')">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="calcBtns" onclick="insert('4')">4</button></td>
+                        <td><button class="calcBtns" onclick="insert('5')">5</button></td>
+                        <td><button class="calcBtns" onclick="insert('6')">6</button></td>
+                        <td><button class="calcBtns" onclick="insert('+')">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="calcBtns" onclick="insert('1')">1</button></td>
+                        <td><button class="calcBtns" onclick="insert('2')">2</button></td>
+                        <td><button class="calcBtns" onclick="insert('3')">3</button></td>
+                        <td rowspan="2"><button class="calcBtns" onclick="calc()" style="height: 100px;">=</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button class="calcBtns" onclick="insert('0')" style="width: 100px;">0</button></td>
+                        <td><button class="calcBtns" onclick="insert('.')">.</button></td>
+                    </tr>
+                </table>
+            </div>
+        <div id="main2">
+            <div id="calendario">
+
+            </div>
+        </div>
+        <div id="footer">
+            <a href="https://github.com/Arthur1802" target="_blank" class="btn"><i class='fa-brands fa-github'></i></a>
+            <a href="https://www.instagram.com/arthur_qob/" target="_blank" class="btn"><i class='fa-brands fa-instagram'></i></a>
+            <a href="https://www.linkedin.com/in/arthur-quinellato/" target="_blank" class="btn"><i class='fa-brands fa-linkedin'></i></a>
+            <a href="https://twitter.com/ArthurQuinella1" target="_blank" class="btn"><i class='fa-brands fa-twitter'></i></a>
+            <a href="https://www.facebook.com/arthur.quinellato" target="_blank" class="btn"><i class='fa-brands fa-facebook'></i></a>
+            <!-- <a href="#" target="_blank" class="btn"><i class='fa-brands fa-google-plus-g'></i></a> -->
+            <a href="mailto:arthur.quinellato@gmail.com" target="_blank" class="btn"><i class='fa-solid fa-envelope'></i></a>
+            <p>By <a href="#" target="_blank" id="profile">Arthur Quinellato</a></p>
+            <span></span>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
